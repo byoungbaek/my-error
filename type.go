@@ -4,7 +4,7 @@ import "fmt"
 
 type MyError struct {
 	code int32
-	s string
+	s    string
 }
 
 func (e *MyError) Error() string {
